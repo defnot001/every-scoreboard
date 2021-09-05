@@ -782,5 +782,161 @@
 	"195": {
 		"name": "used_wooden_fences",
 		"displayName": "Wooden Fences Used"
+	},
+	"195": {
+		"name": "mined_coal_ores",
+		"displayName": "Coal Ores Mined"
+	},
+	"196": {
+		"name": "used_coal_ores",
+		"displayName": "Coal Ores Used"
+	},
+	"197": {
+		"name": "crafted_coal_ores",
+		"displayName": "Coal Ores Crafted"
+	},
+	"198": {
+		"name": "mined_emerald_ores",
+		"displayName": "Emerald Ores Mined"
+	},
+	"199": {
+		"name": "used_emerald_ores",
+		"displayName": "Emerald Ores Used"
+	},
+	"200": {
+		"name": "crafted_emerald_ores",
+		"displayName": "Emerald Ores Crafted"
+	},
+	"201": {
+		"name": "mined_lapis_ores",
+		"displayName": "Lapis Ores Mined"
+	},
+	"202": {
+		"name": "used_lapis_ores",
+		"displayName": "Lapis Ores Used"
+	},
+	"203": {
+		"name": "crafted_lapis_ores",
+		"displayName": "Lapis Ores Crafted"
+	},
+	"204": {
+		"name": "mined_iron_ores",
+		"displayName": "Iron Ores Mined"
+	},
+	"205": {
+		"name": "used_iron_ores",
+		"displayName": "Iron Ores Used"
+	},
+	"206": {
+		"name": "crafted_iron_ores",
+		"displayName": "Iron Ores Crafted"
+	},
+	"207": {
+		"name": "mined_cauldrons",
+		"displayName": "Cauldrons Mined"
+	},
+	"208": {
+		"name": "used_cauldrons",
+		"displayName": "Cauldrons Used"
+	},
+	"209": {
+		"name": "crafted_cauldrons",
+		"displayName": "Cauldrons Crafted"
+	},
+	"210": {
+		"name": "mined_redstone_ores",
+		"displayName": "Redstone Ores Mined"
+	},
+	"211": {
+		"name": "used_redstone_ores",
+		"displayName": "Redstone Ores Used"
+	},
+	"212": {
+		"name": "crafted_redstone_ores",
+		"displayName": "Redstone Ores Crafted"
+	},
+	"213": {
+		"name": "mined_diamond_ores",
+		"displayName": "Diamond Ores Mined"
+	},
+	"214": {
+		"name": "used_diamond_ores",
+		"displayName": "Diamond Ores Used"
+	},
+	"215": {
+		"name": "crafted_diamond_ores",
+		"displayName": "Diamond Ores Crafted"
+	},
+	"216": {
+		"name": "mined_cave_vines",
+		"displayName": "Cave Vines Mined"
+	},
+	"217": {
+		"name": "used_cave_vines",
+		"displayName": "Cave Vines Used"
+	},
+	"218": {
+		"name": "crafted_cave_vines",
+		"displayName": "Cave Vines Crafted"
+	},
+	"219": {
+		"name": "mined_candles",
+		"displayName": "Candles Mined"
+	},
+	"220": {
+		"name": "used_candles",
+		"displayName": "Candles Used"
+	},
+	"221": {
+		"name": "crafted_candles",
+		"displayName": "Candles Crafted"
+	},
+	"222": {
+		"name": "mined_snow",
+		"displayName": "All Snow Mined"
+	},
+	"223": {
+		"name": "used_snow",
+		"displayName": "All Snow Used"
+	},
+	"224": {
+		"name": "crafted_snow",
+		"displayName": "All Snow Crafted"
+	},
+	"225": {
+		"name": "mined_copper_ores",
+		"displayName": "Copper Ores Mined"
+	},
+	"226": {
+		"name": "used_copper_ores",
+		"displayName": "Copper Ores Used"
+	},
+	"227": {
+		"name": "crafted_copper_ores",
+		"displayName": "Copper Ores Crafted"
+	},
+	"228": {
+		"name": "mined_dirt",
+		"displayName": "All Dirt Mined"
+	},
+	"229": {
+		"name": "used_dirt",
+		"displayName": "All Dirt Used"
+	},
+	"230": {
+		"name": "crafted_dirt",
+		"displayName": "All Dirt Crafted"
+	},
+	"231": {
+		"name": "mined_candle_cakes",
+		"displayName": "Candle Cakes Mined"
+	},
+	"232": {
+		"name": "used_candle_cakes",
+		"displayName": "Candle Cakes Used"
+	},
+	"233": {
+		"name": "crafted_candle_cakes",
+		"displayName": "Candle Cakes Crafted"
 	}
 }

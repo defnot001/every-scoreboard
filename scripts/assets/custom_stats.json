@@ -268,7 +268,7 @@
         "displayName": "Targets Hit"
     },
     "67": {
-        "name": "play_one_minute",
+        "name": "play_time",
         "displayName": "Time Played"
     },
     "68": {
@@ -294,5 +294,9 @@
 	"73": {
         "name": "interact_with_grindstone",
         "displayName": "Interactions with Grindstone"
+    },
+    "74": {
+        "name": "total_world_time",
+        "displayName": "Time with World Open"
     }
 }
