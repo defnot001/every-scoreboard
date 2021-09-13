@@ -69,7 +69,7 @@
 	},
 	"17": {
 		"name": "crafted_ice",
-		"displayName": "Ice Crafted"
+		"displayName": "All Ice Crafted"
 	},
 	"18": {
 		"name": "used_crimson_stems",
@@ -129,7 +129,7 @@
 	},
 	"32": {
 		"name": "used_ice",
-		"displayName": "Ice Used"
+		"displayName": "All Ice Used"
 	},
 	"33": {
 		"name": "mined_corals",
@@ -349,7 +349,7 @@
 	},
 	"87": {
 		"name": "mined_ice",
-		"displayName": "Ice Mined"
+		"displayName": "All Ice Mined"
 	},
 	"88": {
 		"name": "mined_beehives",
@@ -777,165 +777,165 @@
 	},
 	"194": {
 		"name": "crafted_wall_corals",
-		"displayName": "Wall Corlas Crafted"
+		"displayName": "Wall Corals Crafted"
 	},
 	"195": {
 		"name": "used_wooden_fences",
 		"displayName": "Wooden Fences Used"
 	},
-	"195": {
+	"196": {
 		"name": "mined_coal_ores",
 		"displayName": "Coal Ores Mined"
 	},
-	"196": {
+	"197": {
 		"name": "used_coal_ores",
 		"displayName": "Coal Ores Used"
 	},
-	"197": {
+	"198": {
 		"name": "crafted_coal_ores",
 		"displayName": "Coal Ores Crafted"
 	},
-	"198": {
+	"199": {
 		"name": "mined_emerald_ores",
 		"displayName": "Emerald Ores Mined"
 	},
-	"199": {
+	"200": {
 		"name": "used_emerald_ores",
 		"displayName": "Emerald Ores Used"
 	},
-	"200": {
+	"201": {
 		"name": "crafted_emerald_ores",
 		"displayName": "Emerald Ores Crafted"
 	},
-	"201": {
+	"202": {
 		"name": "mined_lapis_ores",
 		"displayName": "Lapis Ores Mined"
 	},
-	"202": {
+	"203": {
 		"name": "used_lapis_ores",
 		"displayName": "Lapis Ores Used"
 	},
-	"203": {
+	"204": {
 		"name": "crafted_lapis_ores",
 		"displayName": "Lapis Ores Crafted"
 	},
-	"204": {
+	"205": {
 		"name": "mined_iron_ores",
 		"displayName": "Iron Ores Mined"
 	},
-	"205": {
+	"206": {
 		"name": "used_iron_ores",
 		"displayName": "Iron Ores Used"
 	},
-	"206": {
+	"207": {
 		"name": "crafted_iron_ores",
 		"displayName": "Iron Ores Crafted"
 	},
-	"207": {
+	"208": {
 		"name": "mined_cauldrons",
 		"displayName": "Cauldrons Mined"
 	},
-	"208": {
+	"209": {
 		"name": "used_cauldrons",
 		"displayName": "Cauldrons Used"
 	},
-	"209": {
+	"210": {
 		"name": "crafted_cauldrons",
 		"displayName": "Cauldrons Crafted"
 	},
-	"210": {
+	"211": {
 		"name": "mined_redstone_ores",
 		"displayName": "Redstone Ores Mined"
 	},
-	"211": {
+	"212": {
 		"name": "used_redstone_ores",
 		"displayName": "Redstone Ores Used"
 	},
-	"212": {
+	"213": {
 		"name": "crafted_redstone_ores",
 		"displayName": "Redstone Ores Crafted"
 	},
-	"213": {
+	"214": {
 		"name": "mined_diamond_ores",
 		"displayName": "Diamond Ores Mined"
 	},
-	"214": {
+	"215": {
 		"name": "used_diamond_ores",
 		"displayName": "Diamond Ores Used"
 	},
-	"215": {
+	"216": {
 		"name": "crafted_diamond_ores",
 		"displayName": "Diamond Ores Crafted"
 	},
-	"216": {
+	"217": {
 		"name": "mined_cave_vines",
 		"displayName": "Cave Vines Mined"
 	},
-	"217": {
+	"218": {
 		"name": "used_cave_vines",
 		"displayName": "Cave Vines Used"
 	},
-	"218": {
+	"219": {
 		"name": "crafted_cave_vines",
 		"displayName": "Cave Vines Crafted"
 	},
-	"219": {
+	"220": {
 		"name": "mined_candles",
 		"displayName": "Candles Mined"
 	},
-	"220": {
+	"221": {
 		"name": "used_candles",
 		"displayName": "Candles Used"
 	},
-	"221": {
+	"222": {
 		"name": "crafted_candles",
 		"displayName": "Candles Crafted"
 	},
-	"222": {
+	"223": {
 		"name": "mined_snow",
 		"displayName": "All Snow Mined"
 	},
-	"223": {
+	"224": {
 		"name": "used_snow",
 		"displayName": "All Snow Used"
 	},
-	"224": {
+	"225": {
 		"name": "crafted_snow",
 		"displayName": "All Snow Crafted"
 	},
-	"225": {
+	"226": {
 		"name": "mined_copper_ores",
 		"displayName": "Copper Ores Mined"
 	},
-	"226": {
+	"227": {
 		"name": "used_copper_ores",
 		"displayName": "Copper Ores Used"
 	},
-	"227": {
+	"228": {
 		"name": "crafted_copper_ores",
 		"displayName": "Copper Ores Crafted"
 	},
-	"228": {
+	"229": {
 		"name": "mined_dirt",
 		"displayName": "All Dirt Mined"
 	},
-	"229": {
+	"230": {
 		"name": "used_dirt",
 		"displayName": "All Dirt Used"
 	},
-	"230": {
+	"231": {
 		"name": "crafted_dirt",
 		"displayName": "All Dirt Crafted"
 	},
-	"231": {
+	"232": {
 		"name": "mined_candle_cakes",
 		"displayName": "Candle Cakes Mined"
 	},
-	"232": {
+	"233": {
 		"name": "used_candle_cakes",
 		"displayName": "Candle Cakes Used"
 	},
-	"233": {
+	"234": {
 		"name": "crafted_candle_cakes",
 		"displayName": "Candle Cakes Crafted"
 	}
