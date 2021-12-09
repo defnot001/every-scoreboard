@@ -938,5 +938,17 @@
 	"234": {
 		"name": "crafted_candle_cakes",
 		"displayName": "Candle Cakes Crafted"
+	},
+	"235": {
+		"name": "mined_terracotta",
+		"displayName": "All Terracotta Mined"
+	},
+	"236": {
+		"name": "used_terracotta",
+		"displayName": "All Terracotta Used"
+	},
+	"237": {
+		"name": "crafted_terracotta",
+		"displayName": "All Terracotta Crafted"
 	}
 }

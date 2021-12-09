@@ -26,7 +26,9 @@ $ pip install -r requirements.txt
 
 To 'compile' the datapacks, run the following:
 ```shell script
-# For 1.17.1
+# For 1.18, still put in 1.17.1 for the mcversion 
+# as the package this datapack uses isn't updated
+# yet (although there are no new scoreboards)
 $ python3 scripts/create.py --mcversion="1.17.1" -c
 ```
 The `-c` flag will add the [custom objectives](https://minecraft.gamepedia.com/Statistics#List_of_custom_statistic_names)
@@ -57,8 +59,8 @@ And here you're all set! If you wish to get rid of all of these objectives, run:
 See the naming convention over in the next section. 
 
 Note that the scoreboard names won't change between versions of the game.
-That means you can have your world in 1.16.5 with that datapack, then updates your world to 1.17.1, run the datapack
-for that version again, and you will keep your scoreboards from 1.16.5, with the new ones. 
+That means you can have your world in 1.17.1 with that datapack, then updates your world to 1.18, run the datapack
+for that version again, and you will keep your scoreboards from 1.17.1, with the new ones. 
 
 ## Naming convention
 

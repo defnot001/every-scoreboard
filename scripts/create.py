@@ -6,12 +6,12 @@ By samipourquoi
 pack = """{
     "pack": {
         "description": "Every scoreboard, for Minecraft %s!",
-        "pack_format": 5
+        "pack_format": 8
     }
 }
 """
 
-custom_version = "1.17+"
+custom_version = "1.18+"
 
 import argparse
 import minecraft_data

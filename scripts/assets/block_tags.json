@@ -76,5 +76,6 @@
 	"candle_cakes": ["candle_cake", "white_candle_cake", "orange_candle_cake", "magenta_candle_cake", "light_blue_candle_cake", "yellow_candle_cake", "lime_candle_cake", "pink_candle_cake", "gray_candle_cake", "light_gray_candle_cake", "cyan_candle_cake", "purple_candle_cake", "blue_candle_cake", "brown_candle_cake", "green_candle_cake", "red_candle_cake", "black_candle_cake"],
 	"cauldrons": ["cauldron", "water_cauldron", "lava_cauldron", "powder_snow_cauldron"],
 	"cave_vines": ["cave_vines_plant", "cave_vines"],
-	"snow": ["snow", "snow_block", "powder_snow"]
+	"snow": ["snow", "snow_block", "powder_snow"],
+	"terracotta": ["terracotta", "white_terracotta", "orange_terracotta", "magenta_terracotta", "light_blue_terracotta", "yellow_terracotta", "lime_terracotta", "pink_terracotta", "gray_terracotta", "light_gray_terracotta", "cyan_terracotta", "purple_terracotta", "blue_terracotta", "brown_terracotta", "green_terracotta", "red_terracotta", "black_terracotta"]
 }

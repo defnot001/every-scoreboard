@@ -6,7 +6,7 @@ by samipourquoi
 pack = """{
     "pack": {
         "description": "Every scoreboard, for Minecraft %s!",
-        "pack_format": 5
+        "pack_format": 8
     }
 }
 """
