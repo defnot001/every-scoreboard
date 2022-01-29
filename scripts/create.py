@@ -104,15 +104,11 @@ def make(registry, prefix, criterion_namespace, lang):
 	criteria = {}
 	display_names = {}
 	for i in registry:
-		full_name = prefix + "-" + registry[i]["name"]
-		truncated_name = full_name
-		if len(full_name) > 16:
-			index = "+" + gen_id(full_name)
-			truncated_name = full_name[:16 - len(index)] + index
+		name = prefix + "-" + registry[i]["name"]
 
-		dictionary[full_name] = truncated_name
-		criteria[full_name] = criterion_namespace + ":" + "minecraft." + registry[i]["name"]
-		display_names[full_name] = lang % registry[i]["displayName"]
+		dictionary[name] = name
+		criteria[name] = criterion_namespace + ":" + "minecraft." + registry[i]["name"]
+		display_names[name] = lang % registry[i]["displayName"]
 
 	return {
 		"dictionary": dictionary,
@@ -138,13 +134,6 @@ def delete_commands(data):
 		commands.append("scoreboard objectives remove " + data["dictionary"][i])
 
 	return commands
-
-
-def gen_id(string):
-	sum = 0
-	for i in string:
-		sum = (sum + (ord(i) & 0xF)) ^ (ord(i) * 5)
-	return str(sum)
 
 
 if __name__ == "__main__":

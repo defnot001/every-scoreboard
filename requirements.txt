@@ -1,2 +1,2 @@
-minecraft_data==2.89.2
+minecraft_data==2.100.0
 requests
