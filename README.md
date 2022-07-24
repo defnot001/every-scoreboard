@@ -26,7 +26,7 @@ $ pip install -r requirements.txt
 
 To 'compile' the datapacks, run the following:
 ```shell script
-$ python3 scripts/create.py --mcversion="1.18" -c
+$ python3 scripts/create.py --mcversion="1.19" -c
 ```
 The `-c` flag will add the [custom objectives](https://minecraft.gamepedia.com/Statistics#List_of_custom_statistic_names)
 to the datapack. Be careful however! It is made for the latest version(s) of the game only.
@@ -56,8 +56,8 @@ And here you're all set! If you wish to get rid of all of these objectives, run:
 See the naming convention over in the next section.
 
 Note that the scoreboard names won't change between versions of the game.
-That means you can have your world in 1.17.1 with that datapack, then updates your world to 1.18, run the datapack
-for that version again, and you will keep your scoreboards from 1.17.1, with the new ones.
+That means you can have your world in 1.18 with that datapack, then update your world to 1.19, run the datapack
+for that version again, and you will keep your scoreboards from 1.18, with the new ones.
 
 ## Naming convention
 
@@ -80,7 +80,7 @@ objectives to their actual value.
 
 To do so, run the `update.py` script like so:
 ```shell script
-$ python3 scripts/update.py -D="./dictionaries/dictionary-1.18.json" -S="path/to/stats"
+$ python3 scripts/update.py -D="./dictionaries/dictionary-1.19.json" -S="path/to/stats"
 ```
 
 - the `-D` flag will set the path of the dictionary (needed to convert full name scoreboards to their truncated form).

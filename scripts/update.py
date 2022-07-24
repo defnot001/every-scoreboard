@@ -6,7 +6,7 @@ by samipourquoi
 pack = """{
     "pack": {
         "description": "Every scoreboard, for Minecraft %s!",
-        "pack_format": 8
+        "pack_format": 10
     }
 }
 """
@@ -32,7 +32,7 @@ parser.add_argument("-d", "--dig", required=False, help="(optional) set the name
 parser.add_argument("-p", "--picks", required=False, help="(optional) set the name of the total pick uses objective")
 parser.add_argument("-s", "--shovels", required=False, help="(optional) set the name of the total shovel uses objective")
 parser.add_argument("-a", "--axes", required=False, help="(optional) set the name of the total axe uses objective")
-parser.add_argument("--hoes", required=False, help="(optional) set the name of the total hoe uses objective") 
+parser.add_argument("--hoes", required=False, help="(optional) set the name of the total hoe uses objective")
 # The flag -h is conflicting, so that can't be used
 args = parser.parse_args()
 
@@ -128,8 +128,6 @@ def main():
 	tag.close()
 
 
-
-
 def stats_to_commands(stats, prefix, dictionary):
 	block_tags = json.loads(open("./scripts/assets/block_tags.json", "r").read())
 	block_tag_stats = {}
@@ -201,6 +199,7 @@ def stats_to_commands(stats, prefix, dictionary):
 
 	return commands
 
+
 def update_block_tag_stats(block_tags, block_tag_stats, stat, score):
 	for tag in block_tags:
 		if stat in block_tags[tag]:
@@ -208,6 +207,7 @@ def update_block_tag_stats(block_tags, block_tag_stats, stat, score):
 				block_tag_stats[tag] += score
 			else:
 				block_tag_stats[tag] = score
+
 
 def get_username(uuid):
 	# Removes the '-'
