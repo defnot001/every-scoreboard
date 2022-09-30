@@ -18,6 +18,7 @@ tag_text = """{
 }"""
 
 import argparse
+from xmlrpc.client import ResponseError
 import requests
 import json
 import os
@@ -213,13 +214,16 @@ def get_username(uuid):
 	# Removes the '-'
 	uuid = uuid.replace("-", "")
 	# Requests to mojang api
-	body = json.loads(requests.get("https://api.mojang.com/user/profiles/" + uuid + "/names").text)
+	response = requests.get(f"https://sessionserver.mojang.com/session/minecraft/profile/{uuid}")
 	# Gets the current username
-	try:
-		username = body[-1]["name"]
-		return username
-	except:
-		time.sleep(10)
+
+	if response.status_code == 200:
+		data = response.json()
+		return data['name']
+
+	else:
+		print(f'Profile request for UUID {uuid} failed (code {response.status_code})')
+		time.sleep(5)
 		return get_username(uuid)
 
 
