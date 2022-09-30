@@ -220,6 +220,10 @@ def get_username(uuid):
 	if response.status_code == 200:
 		data = response.json()
 		return data['name']
+	
+	elif response.status_code == 204:
+		# probably a bot
+		return None
 
 	else:
 		print(f'Profile request for UUID {uuid} failed (code {response.status_code})')
